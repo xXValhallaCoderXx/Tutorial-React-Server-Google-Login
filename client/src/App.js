@@ -7,7 +7,7 @@ function App() {
     () => axios.get("http://localhost:3001").then((res) => res.data)
   );
 
-  return <div className="App"></div>;
+  return <div className="App">Hello</div>;
 }
 
 export default App;
